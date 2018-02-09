@@ -1,8 +1,8 @@
 import redis
-#r = redis.Redis(host='10.25.174.198',port=6379)
+#r = redis.Redis(host='xxx.xxx.xxx.xxx',port=6379)
 #r.set('name','KillerMan')
 #print r.get('name')
-pool = redis.ConnectionPool(host='10.25.174.198',port=6379)
+pool = redis.ConnectionPool(host='xxx.xxx.xxx.xxx',port=6379)
 
 r = redis.Redis(connection_pool=pool)
 
